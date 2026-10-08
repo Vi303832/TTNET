@@ -1,0 +1,33 @@
+{
+  "name": "ttnet-gemini-ai",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Full-Stack Gemini AI Streaming Chat & Micro-Cost Tracker in Next.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "firebase": "^10.12.0",
+    "firebase-admin": "^12.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.378.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "tailwind-merge": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vitest": "^5.0.3"
+  }
+}
